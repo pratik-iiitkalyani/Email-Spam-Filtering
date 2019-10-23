@@ -1,0 +1,24 @@
+ANALYSIS:-
+
+ 1- This is supervised mechine learning classifier, we are classifing a mail or text as spam or legitimate by calculating the probability of all keywords which are present in mail and according to this calculation(probability).
+
+2 - Blocking 1 legitimate message is as bad as letting 100s spam messages to pass.
+          
+     if n1 is of spam massege treated as spam.
+     if n2 is of spam massege treated as legitimate.
+     if n3 is of legitimate massege treated as spam.
+      
+
+ then we define two terms :-
+       1- spam recall(sr) = n1/n1+n2
+       2- spam precision(sp) = n1/n1+n3
+
+
+
+
+
+
+ LIMITATION:- This classifier is good for only those mail in which all present keywords are independent.
+              In case of dependent keywords calculated probability will not be correct. This complication arises  
+              due to the ambiguity in English Language.
+              

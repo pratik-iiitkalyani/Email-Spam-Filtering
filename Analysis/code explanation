@@ -1,0 +1,26 @@
+USED FILES:-
+            1- Classifer.py(source code / implimentation code)
+            2- UCI Database(text files for testing )
+            3- Keyword.text(a file contating keywords)
+
+
+                                                      wb
+        Keyword.text <-----------> classifer.py <--------------> Database(UCI Databse)
+                                      (code)           ws
+                    
+                 
+ ** wb- used for making link between code(classifer.py) and used Database(uci) ;[by locating the path of database]
+
+ ** ws- by the help of active function database is connected;[ an inbuilt function present in openpyxl module]
+  
+
+MATHEMATICAL CALCULATION USED :-
+1- Probability of every keyword when it is treated as ham(legitimate) means if this keyword is present in a mail then what is probability that this is not a spam keyword.
+   
+2- Probability of every keyword when it is treated as spam( not legitimate) means if this keyword is present in a mail then what is probability that this is a spam keyword.
+
+3- Total probability of keywords whether they are present in spam or ham. 
+
+4- Baysien analyasis if a particular kayword present in the text(mail) is comming from spam or ham.
+
+5 - We classify a message as spam or legimitate according to the calculated probability(by baye's theoram).

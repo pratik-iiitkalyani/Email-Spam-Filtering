@@ -1,0 +1,5 @@
+1- Bayesian analaysis(using baye's theorm of probability).
+2- All those words which may lead to a spam mail are assumed as keywords.
+3- Reference is taken from the Sahami paper.
+4- UCI Database is used in this classifer (from internet) for testing of source code.
+
